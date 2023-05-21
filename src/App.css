@@ -25,18 +25,22 @@ nav a {
   padding-left: 20px;
 }
 
-.mov img {
-  width: 200px;
+.imgContainer img {
   flex-basis: 20%;
-  
+  object-fit: cover;
 }
 
+.imgContainer{
+  width: 200px;
+  height: 200px;
+}
 
 .movie-container {
-  padding-left: 20px;
+  margin-left: 5px;
+  padding-left: 25px;
   display: flex;
   flex-wrap: wrap;
-  padding-top:50px;
+  padding-top:30px;
   
 }
 .mov-ins{
@@ -52,6 +56,7 @@ nav a {
  border-radius:7px ;
  margin-top: 25px;
  
+ 
 }
 .hero img{
   padding-top: 30px;
@@ -65,4 +70,40 @@ nav a {
 .text{
    width: 400px;
    
+}
+.Genre{
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background-color: rgb(224, 62, 62);
+  margin-left: 1320px;
+}
+.card{
+  margin-right: 40px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: plum;
+  width: 18rem;
+  height: 450px;
+  transition: 1s;
+}
+
+.card:hover{
+  margin-top: -5px;
+  width: 20rem;
+  height: 500px;
+  box-shadow: -10px 10px 60px 10px purple;
+  transition: 1s;
+}
+.search{
+  position: absolute;
+  left: 1090px;
+}
+.search-btn{
+  position: absolute;
+  left: 1270px;
+}
+.card-title{
+  text-align: center;
 }

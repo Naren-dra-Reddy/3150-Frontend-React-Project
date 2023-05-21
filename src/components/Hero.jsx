@@ -1,5 +1,4 @@
 import React from 'react'
-import cinema from '../assets/cinema.svg'
 function Hero() {
   return (
     <div className="hero">
@@ -20,7 +19,7 @@ function Hero() {
           </div>
       </div>
       <div className='hero-right'>
-        <img src={cinema}/>
+        <img src={"assets/cinema.svg"}/>
       </div>
        
     </div>

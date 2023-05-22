@@ -2,17 +2,21 @@ import Button from "./Button";
 
 const Movie=(props)=>{
     return( 
-        <div className="movie-container">
-        <div className="card" >
-        <img src={props.src} className="card-img-top" style={{ height:"300px", objectFit:"fill"}}/>
-        <div className="card-body">
-          <h5 className="card-title">{props.title}</h5>
-          <p>Ratings: {props.rating}</p>
-          <Button/>
-        </div>
-      </div>
-      </div>
-    )
+    
+    <div className="mov relative max-w-xs overflow-hidden bg-cover bg-no-repeat" >
+     <img src={props.src}  className="max-w-xs transition duration-300 ease-in-out hover:scale-110 rounded-xl"/>
+     <div className="mov-det tracking-tight">
+     <h4>
+         {props.title}<br/>
+         {props.rating}
+     </h4>
+     <Button/>
+     </div>
+   
+    </div>
+    
+    
+);
 }
 
 export default Movie;

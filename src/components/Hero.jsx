@@ -1,9 +1,9 @@
 import React from 'react'
+import cinema from '../assets/cinema.svg'
 function Hero() {
   return (
     <div className="hero">
       <div className='hero-left'>
-        <h1>CINEFLIX</h1>
         <div  className='text'>
         <p>Lorem ipsum dolor sit amet, consectetur 
           adipiscing elit, sed do eiusmod tempor
@@ -19,7 +19,7 @@ function Hero() {
           </div>
       </div>
       <div className='hero-right'>
-        <img src={"assets/cinema.svg"}/>
+        <img src={cinema}/>
       </div>
        
     </div>
